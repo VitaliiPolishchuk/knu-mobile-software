@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.musicdb">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".ArtistsEditorActivity"></activity>
+        <activity android:name=".gender.GenderEditorActivity" />
+        <activity
+            android:name=".TypeActivity"
+            android:label="Type" />
+        <activity
+            android:name=".LanguageActivity"
+            android:label="Language" />
+        <activity
+            android:name=".gender.GenderActivity"
+            android:label="Gender" />
+        <activity
+            android:name=".GenreActivity"
+            android:label="Genre" />
+        <activity
+            android:name=".SongsActivity"
+            android:label="Songs" />
+        <activity
+            android:name=".VideosActivity"
+            android:label="Videos" />
+        <activity
+            android:name=".AlbumsActivity"
+            android:label="Albums" />
+        <activity
+            android:name=".artists.ArtistsActivity"
+            android:label="Artists" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

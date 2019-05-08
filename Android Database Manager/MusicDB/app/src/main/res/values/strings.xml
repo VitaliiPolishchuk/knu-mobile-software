@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MusicDB</string>
+
+    <string name="category_artists">Artists</string>
+    <string name="category_albums">Albums</string>
+    <string name="category_videos">Videos</string>
+    <string name="category_songs">Songs</string>
+
+    <string name="category_gender">Gender</string>
+    <string name="category_types">Type</string>
+    <string name="category_genre">Genre</string>
+    <string name="category_language">Language</string>
+    <string name="action_delete_all_entries">Delete all</string>
+    <string name="action_insert_dummy_data">Insert Dummy data</string>
+</resources>
