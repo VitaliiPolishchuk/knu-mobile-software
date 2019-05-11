@@ -1,0 +1,18 @@
+<html>
+<head>
+	<link rel=stylesheet type=text/css href="{{ url_for('static', filename='styles.css') }}">
+	</head>
+
+	
+	<body>
+	<a href='gender/new' >Add gender</a>
+	{% for i in items %}
+	
+	<p>{{i.name}}</p>
+	<a href='gender/{{i.id}}/edit' >Edit</a>
+	<a href='gender/{{i.id}}/delete' >Delete</a>
+	
+	{% endfor %}
+
+	</body>
+</html>
